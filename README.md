@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>GitHub Profile — README (HTML)</title>
+  <title>Liza Soni — GitHub Profile</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
-      --bg:#0f1724; /* dark navy */
+      --bg:#0f1724;
       --card:#0b1220;
       --muted:#94a3b8;
       --accent1:#7c3aed;
@@ -51,7 +51,6 @@
 
     footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center}
 
-    /* responsive */
     @media (max-width:900px){.grid{grid-template-columns:1fr}.avatar{width:92px;height:92px;border-radius:14px}}
   </style>
 </head>
@@ -60,12 +59,12 @@
     <header>
       <div class="avatar" id="avatar">LS</div>
       <div class="intro">
-        <h1 class="name">{{Your Name}}</h1>
-        <div class="tagline">🚀 <span class="typing">{{Short tagline or intro — e.g. Passionate about AI, Web Dev & Sustainable Tech}}</span></div>
+        <h1 class="name">Liza Soni</h1>
+        <div class="tagline">🚀 <span class="typing">Curious mind exploring AI, Web Development & Sustainable Tech</span></div>
         <div class="chips" id="meta-chips">
-          <div class="chip">📍 {{Location or University}}</div>
-          <div class="chip">💼 {{Current role or student}}</div>
-          <div class="chip">🕒 Available for collaborations</div>
+          <div class="chip">📍 India</div>
+          <div class="chip">💼 Computer Engineering Student</div>
+          <div class="chip">🕒 Open for collaborations</div>
         </div>
       </div>
     </header>
@@ -74,37 +73,36 @@
       <main>
         <section class="card">
           <h3 class="section-title">About</h3>
-          <p id="about" style="color:var(--muted);line-height:1.6">Hi — I'm <strong>{{Your Name}}</strong>. I'm a <em>{{Current role / education}}</em> who loves building beautiful, useful things. I work at the intersection of <strong>{{Interests}}</strong>. This README is a living snapshot of my journey and projects.</p>
+          <p style="color:var(--muted);line-height:1.6">Hi — I'm <strong>Liza Soni</strong>, a Computer Engineering student passionate about crafting intelligent and aesthetic digital experiences. I love working on projects involving <strong>AI, Image Processing, and UI/UX Design</strong>. Always eager to learn, explore, and innovate.</p>
         </section>
 
         <section class="card" style="margin-top:14px">
           <h3 class="section-title">Tech Stack</h3>
-          <div class="stack" id="tech-stack">
-            <!-- Replace these with your techs -->
+          <div class="stack">
             <div class="item">Python</div>
             <div class="item">C / C++</div>
             <div class="item">HTML & CSS</div>
             <div class="item">JavaScript</div>
             <div class="item">React</div>
-            <div class="item">Git</div>
+            <div class="item">Git & GitHub</div>
             <div class="item">Machine Learning</div>
           </div>
         </section>
 
         <section class="card" style="margin-top:14px">
-          <h3 class="section-title">Selected Projects</h3>
-          <div class="projects" id="projects">
+          <h3 class="section-title">Featured Projects</h3>
+          <div class="projects">
             <div class="project">
-              <h4>Project One — <small>{{repo-name-1}}</small></h4>
-              <p>A short one-line description of what the project does and the tech used.</p>
+              <h4>GreenHydro — Renewable Energy Dashboard</h4>
+              <p>A data-driven web app promoting green hydrogen awareness and analytics.</p>
             </div>
             <div class="project">
-              <h4>Project Two — <small>{{repo-name-2}}</small></h4>
-              <p>Another highlight — quick summary, link, and impact.</p>
+              <h4>Baseerat — Smart Guidance System</h4>
+              <p>An educational guide app using smart recommendations for career and study paths.</p>
             </div>
             <div class="project">
-              <h4>Project Three — <small>{{repo-name-3}}</small></h4>
-              <p>Optional third project or an open-source contribution highlight.</p>
+              <h4>Image Compression using SVD</h4>
+              <p>Mathematical image compression technique implemented for efficient storage and quality balance.</p>
             </div>
           </div>
         </section>
@@ -114,42 +112,39 @@
         <div class="card">
           <h3 class="section-title">Quick Stats</h3>
           <div class="stats">
-            <!-- Badges / dynamic cards — replace USERNAME with your GitHub username -->
-            <img src="https://github-readme-stats.vercel.app/api?username={{GITHUB_USERNAME}}&show_icons=true&theme=dark" alt="GitHub Stats" style="width:100%;border-radius:12px;" />
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={{GITHUB_USERNAME}}&layout=compact&theme=dark" alt="Top Languages" style="width:100%;border-radius:12px;" />
+            <img src="https://github-readme-stats.vercel.app/api?username=lizasoni&show_icons=true&theme=dark" alt="GitHub Stats" style="width:100%;border-radius:12px;" />
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lizasoni&layout=compact&theme=dark" alt="Top Languages" style="width:100%;border-radius:12px;" />
           </div>
         </div>
 
         <div class="card" style="margin-top:14px">
           <h3 class="section-title">Contact & Socials</h3>
           <div class="socials">
-            <a class="social" href="https://github.com/{{GITHUB_USERNAME}}" target="_blank">GitHub</a>
-            <a class="social" href="https://www.linkedin.com/in/{{LINKEDIN_ID}}" target="_blank">LinkedIn</a>
-            <a class="social" href="{{PORTFOLIO_URL}}" target="_blank">Portfolio</a>
-            <a class="social" href="mailto:{{EMAIL}}">Email</a>
+            <a class="social" href="https://github.com/lizasoni" target="_blank">GitHub</a>
+            <a class="social" href="https://www.linkedin.com/in/liza-soni" target="_blank">LinkedIn</a>
+            <a class="social" href="#" target="_blank">Portfolio</a>
+            <a class="social" href="mailto:liza.soni@example.com">Email</a>
           </div>
         </div>
 
         <div class="card" style="margin-top:14px">
           <h3 class="section-title">Interests</h3>
-          <p style="color:var(--muted);margin:0">{{Image Processing · Machine Learning · Open Source · UI/UX · Sustainable Tech}}</p>
+          <p style="color:var(--muted);margin:0">Artificial Intelligence · Image Processing · UI/UX Design · Renewable Energy · Open Source</p>
         </div>
       </aside>
     </div>
 
     <footer>
-      <small>Made with ❤️ — Copy this HTML into a file (README.html) or convert it to Markdown for your GitHub profile.</small>
+      <small>Made with ❤️ by Liza Soni — Thanks for visiting!</small>
     </footer>
   </div>
 
-  <!-- Small script to auto-fill initials in avatar based on name placeholder -->
   <script>
     (function(){
-      const nameEl = document.querySelector('.name');
+      const name = 'Liza Soni';
       const avatar = document.getElementById('avatar');
-      const name = (nameEl && nameEl.textContent.trim()) || '{{Your Name}}';
-      const initials = name.split(' ').slice(0,2).map(s=>s[0]||'').join('').toUpperCase();
-      avatar.textContent = initials || 'LS';
+      const initials = name.split(' ').map(s=>s[0]).join('').toUpperCase();
+      avatar.textContent = initials;
     })();
   </script>
 </body>
